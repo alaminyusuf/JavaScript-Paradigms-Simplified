@@ -1,18 +1,18 @@
-# Programming Paradigms In Javascript
+# Paradigms In JavaScript
 
-Lets start by defining what javascript is;
+Let's start by defining what javascript is;
 
-JavaScript is an interpreted programming language used by the _browser_ but can also be used at the server side (Nodejs): which it is a runtime composed by a javascript engine used by chrome known as V8 and some features from C++.
+JavaScript is an interpreted programming language used by the _browser_ but can also be used at the server side (Nodejs): which is a runtime composed by a javascript engine used by chrome known as V8 and some features from C++.
 
 ## Paradigms in javascript
 
-The most common and practical paradigms in javascript are **_Functional Programming_** and **_Object Oriented Programming_** which both when mastered, gives developers the ability to write robust code in a way that may seen efficient to a specific program.
+The most common and practical paradigms in javascript are **_Functional Programming_** and **_Object Oriented Programming_** which both when mastered, give developers the ability to write robust code in a way that may seem efficient to a specific program.
 
-Now we take a look at each of the above listed Paradigms;
+Now we take a look at each of the above-listed Paradigms;
 
 ## **Functional Programming**
 
-Functional prgramming AKA _Declarative programming_ is a programming pattern centered around functions is involves closures and lambdas to execute some certain task. Here is an example below.
+Functional programming AKA _Declarative programming_ is a programming pattern centered around functions is involves closures and lambdas to execute some certain task. Here is an example below.
 
 ```javascript
 const developers = [
@@ -51,7 +51,7 @@ function listDevelopers() {
 // Sam has 7 years of experience in javascript
 ```
 
-How about we go further by peeking at what closures are, A closure is function which has another function embedded inside a funtion with refrence to its lexical scope (sorrounding state) eg;
+How about we go further by peeking at what closures are, A closure is a function which has another function embedded inside a function with reference to its lexical scope (surrounding state) eg;
 
 ```javascript
 function closure() {
@@ -66,7 +66,7 @@ This may seem gibberish to a lot of new developers, I also felt that when I was 
 
 ## **Object Oriented Programming**
 
-Object oriented programming AKA _Imperative prgramming_ by the name implies it's a pattern of programming using obejects, Obeject oreinted programming consist of classes _objects_ and prototypes eg;
+Object-oriented programming AKA _Imperative prgramming_ by the name implies it's a pattern of programming using objects, it consists of classes _objects_ and prototypes eg;
 
 ```javascript
 const John = {
@@ -83,9 +83,9 @@ const John = {
 };
 ```
 
-The above example isn't something big but just an insight on object literals, just an account on how to mutate values of an object and access it as well.
+The above example isn't something big but just an insight on object literals, an account on how to mutate values of an object and access it as well.
 
-Now we try something much complex an practical
+Now we try something much complex a practical
 
 ```javascript
 class Developer {
@@ -108,4 +108,4 @@ const developer = new Developer();
 await developer.createMethod(param);
 ```
 
-The main advantage of using this ttype of approach is because it eliminates redundancy in code that's why dvelopers use helper funcions for code abstraction.
+The main advantage of using this type of approach is because it eliminates redundancy in code that's why developers use helper functions for code abstraction.
