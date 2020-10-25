@@ -6,6 +6,8 @@ JavaScript is an interpreted programming language used by the _browser_ but can 
 
 ## Paradigms in javascript
 
+Javascript is a multi paradigm programming language which includes functional, object oriented, procedrel and prototypal programming.
+
 The most common and practical paradigms in javascript are **_Functional Programming_** and **_Object Oriented Programming_** which both when mastered, give developers the ability to write robust code in a way that may seem efficient to a specific program.
 
 Now we take a look at each of the above-listed Paradigms;
